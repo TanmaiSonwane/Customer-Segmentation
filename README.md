@@ -2,40 +2,46 @@
 
 # Customer Personality Segmentation
 
-## Problem statement
+## Problem Statement
 
-In this data science project, you will build a machine learning system which will be able predict the personality of the customer using machine learning algorithms. This project will be very usefull for malls, various stores and companies which are product based. Based on customer's personal details and purchase details, we can cluster them and we can predict the customer's cluster number using classification techniques.
+In this data science project, you will build a machine learning system which can predict the personality of a customer using machine learning algorithms. This project will be very useful for malls, various stores, and product-based companies. Based on a customer's personal and purchase details, we can cluster them and predict the customer's cluster number using classification techniques.
 
 ## Solution Proposed
 
-Now the question is how to dynamically predict the cluster of the customer ?. One of the approaches which we can use of machine learning approach, where we can cluster the customer based on the details we have and predict the cluster type based on the domain knowledge and leverage previous customer data to predict the cluster.
+The question is: how can we dynamically predict the cluster of a new customer?
 
-Dataset used
- <html>
-<a href="https://github.com/entbappy/Branching-tutorial/blob/master/marketing_campaign.zip"> Dataset Link</a>
-</html>
+We use a machine learning-based approach, where we:
+- Cluster existing customers based on their attributes
+- Assign new customers to a cluster using classification techniques based on previously labeled data
 
+### Dataset Used
+[Click here to download](https://github.com/entbappy/Branching-tutorial/blob/master/marketing_campaign.zip)
 
+---
 
 ## Tech Stack Used
 
-1. Python
-2. FastAPI
-3. Machine learning algorithms
-4. Docker
-5. MongoDB
+- Python  
+- FastAPI  
+- Machine Learning (Scikit-learn)  
+- Docker  
+- MongoDB  
 
-## Infrastructure required
+---
 
-1. AWS S3
-2. Azure
-3. Github Actions
+## Infrastructure Required
 
-## How to run
+- AWS S3  
+- Azure  
+- GitHub Actions  
 
-Before you run this project make sure you have MongoDB Atlas account and you have the shipping dataset into it.
+---
 
-Step 1. Cloning the repository.
+## How to Run the Project
+
+> 💡 Before running, make sure you have a MongoDB Atlas account and have uploaded the dataset there.
+
+### Step 1: Clone the repository
 
 ```
 
@@ -158,11 +164,3 @@ From these above models after hyperparameter optimization we selected these two 
 - Model Trainer
 - Model Evaluation
 - Model Pusher
-
-**Custom Logger and Exceptions** are used in the Project for better debugging purposes.
-
-## Conclusion
-
-- This Project can be used in real-life by Users.
-
-Author - Hrisikesh Neogi
