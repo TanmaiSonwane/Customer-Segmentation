@@ -5,7 +5,7 @@ from pymongo import MongoClient
 df = pd.read_csv("notebooks/data/clustered_data.csv")  # Make sure this CSV is present
 
 # 2. Connect to your MongoDB Atlas cluster
-client = MongoClient("mongodb+srv://tanmaisonwane:%2860W%233LRrw%27@cluster0.kkubrdd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("Mongo_db_key")
 # 3. Select the database and collection
 db = client["ineuron"]  # Replace with your DB name
 collection = db["customer_segmentation"]         # Replace with your collection name
