@@ -2,6 +2,10 @@
 
 # Customer Personality Segmentation
 
+![App Screenshot](interface.png)
+![App Screenshot](prediction.png)
+
+
 ## Problem Statement
 
 In this data science project, I have built a machine learning system which can predict the personality of a customer using machine learning algorithms. This project will be very useful for malls, various stores, and product-based companies. Based on a customer's personal and purchase details, we can cluster them and predict the customer's cluster number using classification techniques.
@@ -45,7 +49,7 @@ We use a machine learning-based approach, where we:
 
 ```
 
-git clone https://github.com/Machine-Learning-01/Customer_segmentation.git
+git clone [https://github.com/TanmaiSonwane/Customer-Segmentation/tree/main]
 
 ```
 
