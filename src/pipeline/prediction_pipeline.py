@@ -29,7 +29,7 @@ class CustomerData:
     def __init__(self):
         try:
             # ✅ Replace <username>, <password>, and <cluster-url> with your actual Atlas credentials
-            mongo_uri = "mongodb+srv://tanmaisonwane:(60W#3LRrw'@cluster0.kkubrdd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+            mongo_uri = "MONGO_DB_KEYS"
 
             self.mongo_client = MongoClient(mongo_uri)
             self.database = self.mongo_client[DATABASE_NAME]
